@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: nginx-deploy1
+  name: myPod
+  namespace: default
+spec:
+  containers:
+  - image: nginx:1.16
+    imagePullPolicy: IfNotPresent
+    name: nginx
+    resources: {}
