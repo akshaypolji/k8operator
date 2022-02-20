@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   labels:
     app: nginx-deploy1
-  name: myPod
+  name: mynewpod
   namespace: default
 spec:
   containers:
